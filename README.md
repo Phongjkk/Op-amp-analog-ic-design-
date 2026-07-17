@@ -1,6 +1,6 @@
 # Analog IC Design: Operational Amplifier (Op-Amp) & Comparator
 
-This repository contains the design, simulation, and calculation of a Two-Stage Operational Amplifier (Op-Amp) and Comparator as part of the Analog IC Design course at Hanoi University of Science and Technology (HUST).
+This repository contains the design, simulation, and calculation of a Two-Stage Operational Amplifier (Op-Amp) as part of the Analog IC Design course at Hanoi University of Science and Technology (HUST).
 
 ## 📂 Project Structure
 
@@ -20,7 +20,7 @@ This project includes the following main deliverables:
 ---
 
 ## 🚀 Key Specifications & Features Covered
-- **Architecture:** Two-Stage CMOS Operational Amplifier & Comparator.
+- **Architecture:** Two-Stage CMOS Operational Amplifier.
 - **Tools Used:** LTspice for circuit simulation and verification.
 - **Analysis Types:** 
   - **DC Sweep / Operating Point Analysis:** To ensure all transistors operate in the saturation region.
