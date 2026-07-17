@@ -7,10 +7,14 @@ This repository contains the design, simulation, and calculation of a Two-Stage 
 This project includes the following main deliverables:
 
 1. **Simulation File (`Draft9 (1).asc`)**: 
-   - The complete schematic and simulation testbench created using **LTspice**.
+   - The main schematic and simulation testbench created using **LTspice**.
    - Includes **DC analysis** (for operating points) and **AC analysis** (to verify gain, bandwidth, and phase margin).
 
-2. **Design & Calculation Document (`ThietKeOpAmp_ICTT.pptx`)**:
+2. **Setup & Libraries (`01_LTspice Install/`)**:
+   - This folder contains the LTspice installer and the required semiconductor/technology library files.
+   - Essential for running the simulation without any "missing model" errors.
+
+3. **Design & Calculation Document (`ThietKeOpAmp_ICTT.pptx`)**:
    - Detailed presentation outlining the design methodology, hand calculations, transistor sizing, and simulation results.
 
 ---
@@ -25,6 +29,15 @@ This project includes the following main deliverables:
 ---
 
 ## 🛠️ How to Run the Simulation
-1. Download and install [LTspice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html).
-2. Download both the simulation file `Draft9 (1).asc` and any required semiconductor library/models from this repository (if applicable).
-3. Open `Draft9 (1).asc` in LTspice and run the simulation (Press `F5` or click the "Run" icon) to view the AC/DC frequency response and waveforms.
+
+To run the simulation successfully, you need to use the library files provided in the setup folder:
+
+1. **Install LTspice:**
+   - If you haven't installed LTspice yet, use the installer inside the `01_LTspice Install/` folder.
+
+2. **Set up the Library:**
+   - Copy the library files (e.g., `.lib`, `.model` or `.include` files) from `01_LTspice Install/` and place them in the **same folder** as your simulation file `Draft9 (1).asc`.
+
+3. **Open & Run:**
+   - Open `Draft9 (1).asc` in LTspice.
+   - Press **Run** (the running man icon or `F5`) to start the simulation and view the AC/DC frequency response and waveforms.
