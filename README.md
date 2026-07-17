@@ -1,3 +1,3 @@
-Bài tập lớn môn thiết kế ic tương tự hust 
-mô phỏng mạch: ltspice 
-tính toán: file pptx
+#Bài tập lớn môn thiết kế ic tương tự hust 
+Mô phỏng mạch: ltspice 
+Tính toán: file pptx
